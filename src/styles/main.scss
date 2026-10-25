@@ -75,9 +75,8 @@
   &__note {
     grid-column: 1 / -1;
 
-
-    &-closed{
-    margin: 0;
+    &-closed {
+      margin: 0;
     }
   }
 }
@@ -279,7 +278,7 @@
       transition: transform $transition-time;
     }
 
-    &-link{
+    &-link {
       display: block;
       overflow: hidden;
     }
@@ -368,11 +367,11 @@
     font-size: 16px;
     font-style: normal;
 
-    &--accent{
+    &--accent {
       text-decoration: none;
       color: $main-dark-color;
 
-      @include hover(color, $accent-main-color)
+      @include hover(color, $accent-main-color);
     }
   }
 

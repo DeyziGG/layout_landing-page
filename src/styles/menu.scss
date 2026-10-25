@@ -3,7 +3,6 @@
   box-sizing: border-box;
   overflow: auto;
 
-
   background-color: $accent-main-color;
   font-weight: 700;
   text-transform: uppercase;
@@ -24,7 +23,7 @@
     background-color: $accent-main-color;
   }
 
-  &__phone-number  {
+  &__phone-number {
     display: block;
     position: relative;
     width: fit-content;
